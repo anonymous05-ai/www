@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Cơ Sở Lĩnh Nam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        .iframe-container {
+            display: none;
+        }
+        .sidebar {
+            transition: width 0.3s;
+        }
+        .sidebar.collapsed {
+            width: 0;
+        }
+        .sidebar.collapsed .content {
+            display: none;
+        }
+        .sidebar.collapsed + .toggle-button {
+            left: 0;
+        }
+        .toggle-button {
+            transition: left 0.3s;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="flex flex-col h-screen">
+        <header class="w-full bg-gray-800 text-center py-2">
+            <h1 class="text-lg font-semibold">CƠ SỞ LĨNH NAM</h1>
+            <nav class="space-x-4">
+                <a href="trangchu.html" class="text-white hover:text-blue-400">Trang chủ</a>
+                <a href="cslinhnam.html" class="text-white hover:text-blue-400">Cơ sở lĩnh nam</a>
+                <a href="csminhkhai.html" class="text-white hover:text-blue-400">Cơ sở minh khai</a>
+            </nav>
+        </header>
+        <div class="flex flex-1">
+            <aside class="sidebar w-1/4 bg-gray-800 overflow-y-auto">
+                <div class="flex flex-col items-center space-y-4 py-4 content">
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/b20c0c2ef68d4edc8b47813d9275782e?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Khu đỗ xe</a>
+                        <img alt="Khu đỗ xe" class="w-2000 h-20 object-cover mt-2 mx-auto" src="nhavelinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/b37c57c958554766bdc22f6e1d927a73?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Cổng trường</a>
+                        <img alt="Cổng trường" class="w-2000 h-20 object-cover mt-2 mx-auto" src="congc1.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/b7d0fc40eb5946ae9bd456c6caf38983?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Biểu tượng trường</a>
+                        <img alt="Biểu tượng trường" class="w-2000 h-20 object-cover mt-2 mx-auto" src="khuvucsaubieutuong.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/c15f808169ee40f8bfb36d62881ace9c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Lối vào C2</a>
+                        <img alt="Lối vào C2" class="w-2000 h-20 object-cover mt-2 mx-auto" src="congc2linhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/baef290e2d354f4fa9a9e89eece09c4b?utm_campaign=embed&utm_source=other&heading=-189.05&pitch=-0.95&field-of-view=75&size=medium&display-plan=true">Cổng Trường</a>
+                        <img alt="Cổng Trường" class="w-2000 h-20 object-cover mt-2 mx-auto" src="congc1.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/b37c57c958554766bdc22f6e1d927a73?utm_campaign=embed&utm_source=other&heading=-53&pitch=7.42&field-of-view=75&size=medium&display-plan=true">Lối Cổng Vào</a>
+                        <img alt="Lối Cổng Vào" class="w-2000 h-20 object-cover mt-2 mx-auto" src="khuvucbieutuong.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/afa6e9840b2040f6aff47b1d0e2de48c?utm_campaign=embed&utm_source=other&heading=-44.4&pitch=23.58&field-of-view=75&size=medium&display-plan=true">Sân Trường</a>
+                        <img alt="Sân Trường" class="w-2000 h-20 object-cover mt-2 mx-auto" src="santruonglinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/1e2f9d8e2bd5440a80647ff1a0d58fe6?utm_campaign=embed&utm_source=other&heading=-39.08&pitch=23.54&field-of-view=75&size=medium&display-plan=true">Banner</a>
+                        <img alt="Banner" class="w-2000 h-20 object-cover mt-2 mx-auto" src="bannerlinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/b37c57c958554766bdc22f6e1d927a73?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Lối ra cổng C2</a>
+                        <img alt="Lối ra cổng C2" class="w-2000 h-20 object-cover mt-2 mx-auto" src="loiracongc2.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/b20c0c2ef68d4edc8b47813d9275782e?utm_campaign=embed&utm_source=other&heading=20.4&pitch=18.3&field-of-view=75&size=medium&display-plan=true">Nhà để xe</a>
+                        <img alt="Nhà để xe" class="w-2000 h-20 object-cover mt-2 mx-auto" src="nhavelinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/69990b5fbfdf4ead9a8745eb4796932a?utm_campaign=embed&utm_source=other&heading=168.19&pitch=-1.9&field-of-view=75&size=medium&display-plan=true">Lối đi vào sảnh</a>
+                        <img alt="Lối đi vào sảnh" class="w-2000 h-20 object-cover mt-2 mx-auto" src="loivaoha10.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/87f4fcf804dd4956814f303fb4e24578?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Sảnh 1</a>
+                        <img alt="Sảnh 1" class="w-2000 h-20 object-cover mt-2 mx-auto" src="loivaosanhha10.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/ce2549c0b64c462d9138260719563652?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Sảnh 2</a>
+                        <img alt="Sảnh 2" class="w-2000 h-20 object-cover mt-2 mx-auto" src="khuvucsanhha10.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/af8f02765aa247228749fb929c12dbdd?utm_campaign=embed&utm_source=other&heading=115.77&pitch=-1.78&field-of-view=75&size=medium&display-plan=true">Sảnh 3</a>
+                        <img alt="Sảnh 3" class="w-2000 h-20 object-cover mt-2 mx-auto" src="sanhha10vaha11.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/72e4f0ed4c0842d49c3c0e07355c7e3a?utm_campaign=embed&utm_source=other&heading=-8.25&pitch=21.74&field-of-view=75&size=medium&display-plan=true">Lối vào thư viện</a>
+                        <img alt="Lối vào thư viện" class="w-2000 h-20 object-cover mt-2 mx-auto" src="loilenthuvienlinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/0cd2e2aca7e945b0926d718aaa8f2cd4?utm_campaign=embed&utm_source=other&heading=-36.46&pitch=-0.99&field-of-view=75&size=medium&display-plan=true">Sảnh thư viện</a>
+                        <img alt="Sảnh thư viện" class="w-2000 h-20 object-cover mt-2 mx-auto" src="loivaothuvienlinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/843198842be34a66be77af5c0c36ae45?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Tủ đồ thư viện</a>
+                        <img alt="Tủ đồ thư viện" class="w-2000 h-20 object-cover mt-2 mx-auto" src="noidedothuvien.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/3a0a540b28404060be4f7d5289cb7ff5?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Thư viện</a>
+                        <img alt="Thư viện" class="w-2000 h-20 object-cover mt-2 mx-auto" src="banner.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/c497bc8daa2949caab0528545cf3cdcf?utm_campaign=embed&utm_source=other&heading=-174.7&pitch=24.9&field-of-view=75&size=medium&display-plan=true">Khu vực đọc sách</a>
+                        <img alt="Khu vực đọc sách" class="w-2000 h-20 object-cover mt-2 mx-auto" src="thuvienlinhnam.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/f56699e6879b4dfb9c98eb4404a9e7be?utm_campaign=embed&utm_source=other&heading=-63.04&pitch=20.33&field-of-view=75&size=medium&display-plan=true">Giá sách</a>
+                        <img alt="Giá sách" class="w-2000 h-20 object-cover mt-2 mx-auto" src="khuvucgiasach.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/8821eec19919428ca43dc271451e498f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Lối ra</a>
+                        <img alt="Lối ra" class="w-2000 h-20 object-cover mt-2 mx-auto" src="congc2linhnam.jpg"/>
+                    </div>
+                </div>
+            </aside>
+            <div class="flex-1 flex flex-col">
+                <button id="toggleSidebar" class="bg-gray-800 text-white p-2">NHẤP ĐỂ XEM TOÀN CẢNH</button>
+                <div class="iframe-container w-full h-full flex-1">
+                    <iframe src="" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const links = document.querySelectorAll('.link');
+        const iframeContainer = document.querySelector('.iframe-container');
+        const iframe = iframeContainer.querySelector('iframe');
+        const sidebar = document.querySelector('.sidebar');
+        const toggleSidebarButton = document.getElementById('toggleSidebar');
+
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                iframe.src = link.getAttribute('data-url');
+                iframeContainer.style.display = 'block';
+            });
+        });
+
+        toggleSidebarButton.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+</html>

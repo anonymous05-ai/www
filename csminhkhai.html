@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Cơ Sở Minh Khai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        .iframe-container {
+            display: none;
+        }
+        .sidebar {
+            transition: width 0.3s;
+        }
+        .sidebar.collapsed {
+            width: 0;
+        }
+        .sidebar.collapsed .content {
+            display: none;
+        }
+        .sidebar.collapsed + .toggle.button {
+            left: 0;
+        }
+        .toggle.button {
+            transition: left 0.3s;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="flex flex-col h-screen">
+        <header class="w-full bg-gray-800 text-center py-2">
+            <h1 class="text-lg font-semibold">CƠ SỞ MINH KHAI</h1>
+            <nav class="space-x-4">
+                <a href="trangchu.html" class="text-white hover:text-blue-400">Trang chủ</a>
+                <a href="cslinhnam.html" class="text-white hover:text-blue-400">Cơ sở Lĩnh Nam</a>
+                <a href="csminhkhai.html" class="text-white hover:text-blue-400">Cơ sở Minh Khai</a>
+            </nav>
+        </header>
+        <div class="flex flex-1">
+            <aside class="sidebar w-1/4 bg-gray-800 overflow-y-auto">
+                <div class="flex flex-col items-center space-y-4 py-4 content">
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/a60f4d8b42b148f58d7d892d3b923d8e?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Cổng</a>
+                        <img alt="Cổng" class="w-16 h-16 object-cover mt-2 mx-auto" src="lecomeminhkhai.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/1062d3d37efe48de8cb4082482c786ec?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Nhà xe</a>
+                        <img alt="Nhà xe" class="w-16 h-16 object-cover mt-2 mx-auto" src="nhaxeminhkhai.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/4824b9aa85ac4afa83ead846b1d6991a?utm_campaign=embed&utm_source=other&heading=-148.36&pitch=1.25&field-of-view=75&size=medium&display-plan=true">Sân trường</a>
+                        <img alt="Sân trường" class="w-16 h-16 object-cover mt-2 mx-auto" src="santruongminhkhai.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/f1c14d1303d04646b5aa4f53c5261052?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Thư viện trường</a>
+                        <img alt="Thư viện trường" class="w-16 h-16 object-cover mt-2 mx-auto" src="loivaothuvienminhkhai.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/df1b498e9a3748efa0158479e4dbbd60?utm_campaign=embed&utm_source=other&heading=-222.16&pitch=-0.33&field-of-view=75&size=medium&display-plan=true">Phòng thư viện</a>
+                        <img alt="Phòng thư viện" class="w-16 h-16 object-cover mt-2 mx-auto" src="thuvienminhkhai2.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/d7e3ec8de5a44d21bdb0eeae1a733d3e?utm_campaign=embed&utm_source=other&heading=-184.85&pitch=12.29&field-of-view=75&size=medium&display-plan=true">Lối vào phòng thực hành khách sạn</a>
+                        <img alt="Lối vào phòng thực hành khách sạn" class="w-16 h-16 object-cover mt-2 mx-auto" src="ha4.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/1e8116a1cda448c4ba9db83872d9fd8f?utm_campaign=embed&utm_source=other&heading=-332.31&pitch=-9.49&field-of-view=75&size=medium&display-plan=true">Lối vào phòng thực hành khách sạn</a>
+                        <img alt="Lối vào phòng thực hành khách sạn" class="w-16 h-16 object-cover mt-2 mx-auto" src="loivaophongthuchanhdulich.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/24ca33e07c4c4f98b479932f92ea1cf4?utm_campaign=embed&utm_source=other&heading=-230.94&pitch=1.2&field-of-view=75&size=medium&display-plan=true">Phòng thực hành khách sạn</a>
+                        <img alt="Phòng thực hành khách sạn" class="w-16 h-16 object-cover mt-2 mx-auto" src="phongdulich.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/f370edc9b0014157be2183d7e57f2598?utm_campaign=embed&utm_source=other&heading=-168.84&pitch=6.71&field-of-view=75&size=medium&display-plan=true">Quầy bar</a>
+                        <img alt="Quầy bar" class="w-16 h-16 object-cover mt-2 mx-auto" src="quaybar.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/f51259d8540e40da9287e09e2c3b57c7?utm_campaign=embed&utm_source=other&heading=-68.52&pitch=3.08&field-of-view=75&size=medium&display-plan=true">Quầy lễ tân</a>
+                        <img alt="Quầy lễ tân" class="w-16 h-16 object-cover mt-2 mx-auto" src="phongthuchanhdulich.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/4908f178227f446889a8d2868a84753e?utm_campaign=embed&utm_source=other&heading=-103.53&pitch=-2.59&field-of-view=75&size=medium&display-plan=true">Lối vào phòng thực hành du lịch</a>
+                        <img alt="Lối vào phòng thực hành du lịch" class="w-16 h-16 object-cover mt-2 mx-auto" src="ha6.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/cf777b1518ab4d8ba2880e245ba4a0ea?utm_campaign=embed&utm_source=other&heading=-271.73&pitch=1.57&field-of-view=75&size=medium&display-plan=true">Toà H5</a>
+                        <img alt="Toà H5" class="w-16 h-16 object-cover mt-2 mx-auto" src="ha5.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/88442ec4093b4e12a7ef19bb297284e2?utm_campaign=embed&utm_source=other&heading=53.64&pitch=15.61&field-of-view=75&size=medium&display-plan=true">Bảng thông tin</a>
+                        <img alt="Bảng thông tin" class="w-16 h-16 object-cover mt-2 mx-auto" src="kehoach.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/7fdf0e20e9904f4aadf1a8085db94ab0?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Phòng thực hành</a>
+                        <img alt="Phòng thực hành" class="w-16 h-16 object-cover mt-2 mx-auto" src="phongthuchanh2.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/29c832803c2a4b4daf151818e75ea15e?utm_campaign=embed&utm_source=other&heading=357.41&pitch=22.98&field-of-view=75&size=medium&display-plan=true">Nơi làm việc</a>
+                        <img alt="Nơi làm việc" class="w-16 h-16 object-cover mt-2 mx-auto" src="phongthuchanh.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/a19da507174e430b878cef5ce1e75f1d?utm_campaign=embed&utm_source=other&heading=-373.58&pitch=-3.7&field-of-view=75&size=medium&display-plan=true">Lối vào phòng trung bay</a>
+                        <img alt="Lối vào phòng trung bay" class="w-16 h-16 object-cover mt-2 mx-auto" src="loivaophongthuchanh.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/618ecb8de31d47e2853f1e8b40704630?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true">Phòng trưng bày và công tác</a>
+                        <img alt="Phòng trưng bày và công tác" class="w-16 h-16 object-cover mt-2 mx-auto" src="phòngthuchanh1.jpg"/>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link text-blue-400 block" data-url="https://momento360.com/e/u/63dbf64a21bc447388ff30e7558aad8a?utm_campaign=embed&utm_source=other&heading=52&pitch=1.7&field-of-view=75&size=medium&display-plan=true">Kết thúc</a>
+                        <img alt="Kết thúc" class="w-16 h-16 object-cover mt-2 mx-auto" src="ketthuc.jpg"/>
+                    </div>
+                </div>
+            </aside>
+            <div class="flex-1 flex flex-col">
+                <button id="toggleSidebar" class="bg-gray-800 text-white p-2">NHẤP ĐỂ XEM TOÀN CẢNH</button>
+                <div class="iframe-container w-full h-full flex-1">
+                    <iframe src="" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const links = document.querySelectorAll('.link');
+        const iframeContainer = document.querySelector('.iframe-container');
+        const iframe = iframeContainer.querySelector('iframe');
+        const sidebar = document.querySelector('.sidebar');
+        const toggleSidebarButton = document.getElementById('toggleSidebar');
+
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                iframe.src = link.getAttribute('data-url');
+                iframeContainer.style.display = 'block';
+            });
+        });
+
+        toggleSidebarButton.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+</html>
